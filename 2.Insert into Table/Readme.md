@@ -3,7 +3,7 @@
 # Movies Table SQL Project
 
 **Overview**  
-This project demonstrates how to **create a simple SQL table called `Movies`**, **insert sample movie data**, and **query results**. Perfect for **SQL beginners** learning table creation, data insertion, and basic queries.
+This project demonstrates how to **create a simple SQL table called `Movies`**, **insert sample movie data**. Perfect for **SQL beginners** learning table creation, data insertion, and basic queries.
 
 ***
 

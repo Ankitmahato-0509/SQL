@@ -53,7 +53,6 @@ VALUES
 **PRIMARY KEY**: Ensures unique movie titles  
  **Multiple INSERT**: Add many rows at once  
 **Data Types**: `VARCHAR` (text), `INT` (whole numbers), `FLOAT` (decimals)  
-**SELECT `*`**: View all columns and rows  
 
 ***
 

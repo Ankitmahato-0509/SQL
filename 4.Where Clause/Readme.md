@@ -77,18 +77,6 @@ SELECT * FROM Movies WHERE IMDBRating > 8.5;
 
 ***
 
-## Additional Queries to Try
-
-```sql
--- All movies (no filter)
-SELECT * FROM Movies;
-
--- Highest budget
-SELECT * FROM Movies ORDER BY Budget DESC;
-
--- Leo's movies
-SELECT * FROM Movies WHERE ActorName = 'Leonardo DiCaprio';
-```
 
 ***
 

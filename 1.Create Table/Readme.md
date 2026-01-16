@@ -1,6 +1,6 @@
 
 
-# 🎬 Movies Table — SQL Project
+# Movies Table — SQL Project
 
 Welcome to the **Movies Table SQL Project**!  
 This repository demonstrates how to create and understand a basic SQL table for storing movie information — including the movie name, actor, producer, budget, and IMDb rating.  

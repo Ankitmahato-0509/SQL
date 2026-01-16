@@ -55,24 +55,7 @@ CREATE TABLE Movies (
 ### 4. `FLOAT`
 - Used for numeric values that include **decimals**, such as ratings or percentages.
 
-***
 
-## Example Data Insertion
-
-You can insert data like this:
-
-```sql
-INSERT INTO Movies (Name, ActorName, ProducerName, Budget, IMDBRating)
-VALUES ('Inception', 'Leonardo DiCaprio', 'Emma Thomas', 160000000, 8.8);
-```
-
-**Output after insertion:**
-
-| Name | ActorName | ProducerName | Budget | IMDBRating |
-|------|------------|---------------|--------|-------------|
-| Inception | Leonardo DiCaprio | Emma Thomas | 160000000 | 8.8 |
-
-***
 
 ## Example Query
 
@@ -97,6 +80,4 @@ WHERE IMDBRating > 8;
 - Great starting point for learning **database design** and **data querying** with SQL.
 
 ***
-
-Would you like me to **add an ER diagram visualization** or a **section on expanding this table** (for example, linking it with `Actors` or `Producers` tables)?
 

@@ -164,15 +164,6 @@ VALUES ('Your Movie', 'Actor Name', 'Producer Name', 100000000, 8.5);
 
 ---
 
-## Future Enhancements
-
-* Add `LIMIT` clause
-* Use `GROUP BY` and `HAVING`
-* Add release year column
-* Normalize actors and producers into separate tables
-
----
-
 ## License
 
 This project is open-source and free to use for learning and practice.

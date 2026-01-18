@@ -162,13 +162,5 @@ INSERT INTO Movies
 VALUES ('Your Movie', 'Actor Name', 'Producer Name', 100000000, 8.5);
 ```
 
----
-
-## License
-
-This project is open-source and free to use for learning and practice.
-
----
-
 
 

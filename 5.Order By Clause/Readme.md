@@ -1,5 +1,3 @@
----
-
 # Movies Table SQL Project
 
 ##  Project Overview

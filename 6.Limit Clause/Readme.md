@@ -47,7 +47,8 @@ CREATE TABLE Movies (
     ActorName VARCHAR(100),          
     ProducerName VARCHAR(100),       
     Budget INT,                     
-    IMDBRating FLOAT                 
+    IMDBRating FLOAT
+               
 );
 ```
 

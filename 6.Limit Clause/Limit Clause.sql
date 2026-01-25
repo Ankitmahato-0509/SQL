@@ -1,4 +1,4 @@
-﻿-- 1. Create the Movies table
+-- 1. Create the Movies table
 CREATE TABLE Movies (
     Name VARCHAR(100) PRIMARY KEY,
     ActorName VARCHAR(100),
@@ -22,17 +22,12 @@ FROM Movies;
 
 -- 4. Query all data with a limit
 -- Retrieves every column for only 2 movies
-
---LIMIT → works in MySQL, PostgreSQL, SQLite.
-
-
+-- LIMIT → works in MySQL, PostgreSQL, SQLite.
 SELECT *
 FROM Movies
 LIMIT 2;
 
-
---TOP / OFFSET…FETCH → works in SQL Server.
-
+-- TOP / OFFSET…FETCH → works in SQL Server.
 SELECT TOP 2 *
 FROM Movies;
 
@@ -41,3 +36,27 @@ FROM Movies
 ORDER BY Name
 OFFSET 0 ROWS
 FETCH NEXT 2 ROWS ONLY;
+
+-- Limit Results Using LIMIT
+
+-- a) Get Top 2 Movies (MySQL, PostgreSQL, SQLite)
+SELECT *
+FROM Movies
+LIMIT 2;
+
+-- b) Get Top 2 Movies (SQL Server with TOP)
+SELECT TOP 2 *
+FROM Movies;
+
+-- c) Get Top 2 Movies (SQL Server with OFFSET…FETCH)
+SELECT *
+FROM Movies
+ORDER BY Name
+OFFSET 0 ROWS
+FETCH NEXT 2 ROWS ONLY;
+
+-- d) Get Highest Rated Movies - Limit to 3 Results
+SELECT *
+FROM Movies
+ORDER BY IMDBRating DESC
+LIMIT 3;

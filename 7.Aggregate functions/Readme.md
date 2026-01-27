@@ -96,7 +96,3 @@ Each record stores actor, producer, budget, and IMDB rating details.
 Created as a simple SQL aggregation example for learning and demonstration purposes.
 
 ---
-
-
-
-Just say the word 🙂

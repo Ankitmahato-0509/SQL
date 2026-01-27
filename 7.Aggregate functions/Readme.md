@@ -1,9 +1,4 @@
-Here’s a clean, beginner-friendly **README.md** for your SQL script 👇
-You can copy-paste this directly into your repo.
-
----
-
-# Movies Database – SQL Aggregation Demo
+# Movies Table SQL Project
 
 This project demonstrates how to create a simple **Movies** database table and perform various **SQL aggregate operations** such as `COUNT`, `SUM`, `AVG`, `MAX`, `MIN`, `GROUP BY`, and `HAVING`.
 
